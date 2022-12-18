@@ -1,0 +1,27 @@
+
+
+$a = 1
+if ($a -gt 2) 
+
+    { Write-Host "Der Wert $a ist größer als 2."}
+
+
+
+
+
+$a = 2
+if ($a -gt 2) 
+    { Write-Host "Der Wert $a ist größer als 2."} 
+else
+    { Write-Host "Der Wert $a ist kleiner oder gleich 2."} 
+
+
+
+
+$a=1
+if ($a -gt 2) 
+    { Write-Host "Der Wert $a ist größer als 2." } 
+ elseif ($a -eq 2) 
+    { Write-Host "Der Wert $a ist gleich 2." } 
+ else 
+    { Write-Host "Der Wert $a ist kleiner als 2" } 
