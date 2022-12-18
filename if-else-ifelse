@@ -1,5 +1,5 @@
 
-
+#TestComment
 $a = 1
 if ($a -gt 2) 
 
@@ -8,7 +8,7 @@ if ($a -gt 2)
 
 
 
-
+#TestComment2
 $a = 2
 if ($a -gt 2) 
     { Write-Host "Der Wert $a ist größer als 2."} 
@@ -17,7 +17,7 @@ else
 
 
 
-
+# This is test comment 3
 $a=1
 if ($a -gt 2) 
     { Write-Host "Der Wert $a ist größer als 2." } 
